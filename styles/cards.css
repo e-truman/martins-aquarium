@@ -1,31 +1,29 @@
 .fish {
     display: flex;
-    justify-content: space-around;
-    margin:2%;
+    justify-content: space-evenly;
+   
   }
 .places {
     display: flex;
-    justify-content: space-around;
-    margin:2%;
+    justify-content: space-evenly;
   }
 
   .title_fish {
     margin: 0% 5% 5% 5%;
+    font-family: 'Montserrat', sans-serif !important;
 
   }
 
   .title_places {
     margin: 5%;
+    font-family: 'Montserrat', sans-serif !important;
   }
 
   .fish_and_places {
-    /* width: 700%; */
-    margin: 0% 2% 0% 0%;
+    flex: 3;
+    flex-basis: 15%;
   }
 
-  .card {
-    margin: 0% 1% 1% 1%;
-  }
 
   h3 {
     font-family: 'Roboto', sans-serif;
